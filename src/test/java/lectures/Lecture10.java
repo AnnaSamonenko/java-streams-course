@@ -39,7 +39,12 @@ public class Lecture10 {
     @Test
     public void withFlatMap() throws Exception {
 //   [Mariam, Alex, Ismail, John, Alesha, Andre, Susy, Ali]
+        List<String> res = arrayListOfNames
+                .stream()
+                .flatMap(List::stream)
+                .collect(Collectors.toList());
 
+        System.out.println(res);
     }
 
 }
