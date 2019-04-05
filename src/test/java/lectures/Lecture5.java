@@ -1,14 +1,11 @@
 package lectures;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
 import beans.Car;
 import beans.Person;
 import beans.PersonDTO;
 import com.google.common.collect.ImmutableList;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.OptionalDouble;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
@@ -55,6 +52,7 @@ public class Lecture5 {
     public void test() throws Exception {
         MockData.getCars().forEach(System.out::println);
     }
+
 }
 
 

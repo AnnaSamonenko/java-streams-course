@@ -1,13 +1,9 @@
 package lectures;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
 import beans.Person;
-
 import com.google.common.collect.ImmutableList;
 
 import java.io.IOException;
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -52,4 +48,5 @@ public class Lecture1 {
                 .collect(Collectors.toList())
                 .forEach(System.out::println);
     }
+
 }

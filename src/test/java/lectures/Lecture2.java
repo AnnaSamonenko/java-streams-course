@@ -36,4 +36,5 @@ public class Lecture2 {
                 .filter(number -> number % 2 == 0)
                 .limit(10).forEach(System.out::println);
     }
+
 }
